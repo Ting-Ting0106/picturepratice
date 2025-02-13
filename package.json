@@ -1,0 +1,18 @@
+{
+  "0": {
+    "dependencies": {
+      "playwright": "^24.2.0"
+    }
+  },
+  "1": {
+    "type": "module"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
